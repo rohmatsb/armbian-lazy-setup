@@ -1,0 +1,1 @@
+# armbian-lazy-setup
