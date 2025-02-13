@@ -12,6 +12,7 @@ wget https://raw.githubusercontent.com/rohmatsb/boxbuddy-installer/main/install-
 
 # Hapus residu file
 rm -rf ./install-boxbuddy.sh
+rm -rf ./lazy-setup.sh
 
 # Finish
 clear
