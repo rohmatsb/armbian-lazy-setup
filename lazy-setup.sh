@@ -8,7 +8,7 @@ sudo apt upgrade -y
 sudo apt install chromium -y
 
 # Install BoxBuddy
-wget https://raw.githubusercontent.com/rohmatsb/boxbuddy-installer/main/install-boxbuddy.sh && chmod +x install-boxbuddy.sh && ./install-boxbuddy.sh
+wget https://raw.githubusercontent.com/rohmatsb/boxbuddy-installer/main/install-boxbuddy.sh && chmod +x install-boxbuddy.sh && sudo ./install-boxbuddy.sh
 
 # Hapus residu file
 rm -rf ./install-boxbuddy.sh
