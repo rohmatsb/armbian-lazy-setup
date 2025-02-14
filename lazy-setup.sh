@@ -9,6 +9,7 @@ wget https://raw.githubusercontent.com/rohmatsb/boxbuddy-installer/main/install-
 
 # Buat folder home untuk container
 mkdir Desktop/containers-homedir
+sudo chmod 777 Desktop/containers-homedir
 
 # Hapus residu file
 rm -rf ./install-boxbuddy.sh
