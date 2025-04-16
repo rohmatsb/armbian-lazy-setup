@@ -1,3 +1,6 @@
+# Expand storage
+sudo armbian-tf
+
 # Update repo
 sudo apt update
 
@@ -5,7 +8,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # Install BoxBuddy
-wget https://raw.githubusercontent.com/rohmatsb/boxbuddy-installer/main/install-boxbuddy.sh && chmod +x install-boxbuddy.sh && sudo ./install-boxbuddy.sh
+wget https://raw.githubusercontent.com/rohmatsb/boxbuddy-installer/main/install-boxbuddy.sh && chmod 777 install-boxbuddy.sh && sudo ./install-boxbuddy.sh
 
 # Buat folder home untuk container
 mkdir Desktop/containers-homedir
@@ -17,6 +20,5 @@ rm -rf ./lazy-setup.sh
 
 # Finish
 clear
-echo "Setup selesai, rebooting..."
-sleep 3
+read -p "Setup selesai! Klik 'enter' untuk reboot, atau CTRL+C untuk exit."
 sudo reboot
